@@ -88,6 +88,7 @@ if selection == 1:
                     os.system('cls')
                     refreshlist()
 os.system('cls')
+os.system('clear')
 loginusername = raw_input("Please enter your username: ")
 loginpassword = getpass.getpass("Please enter your password: ")
 with open("creds.cred") as myFile:
