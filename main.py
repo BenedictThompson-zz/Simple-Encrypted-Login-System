@@ -42,8 +42,8 @@ print "Coded by Ben Thompson on 03/13/16"
 time.sleep(0.2)
 print "Do you want to:"
 time.sleep(0.2)
-print "[1]Create an account"
-print "[2]Login to an account"
+print "1//Create an account"
+print "2//Login to an account"
 selection = input("What do you want to do (eg. 1 or 2)?: ")
 accountcreation = 1
 if selection == 1:
