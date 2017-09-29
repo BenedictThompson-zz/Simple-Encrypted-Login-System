@@ -97,8 +97,7 @@ with open("creds.cred") as myFile:
             dataloc = num - 1
 pwdtoverify = password[dataloc]
 
-verifypw = str(pbkdf2_sha256.verify(loginpassword, pwdtoverify))
-if verifypw == "True":
+if (pbkdf2_sha256.verify(loginpassword, pwdtoverify):
     print ("Welcome " + firstname[dataloc])
     print "You have successfully logged in!"
     time.sleep(2)
